@@ -92,6 +92,34 @@ hr.rule {
   margin-top: 8px;
 }
 
+.fb-follow-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 14px;
+  padding: 7px 16px;
+  background: #1877F2;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+
+.fb-follow-btn:hover {
+  background: #1565d8;
+  color: #fff;
+}
+
+.fb-follow-icon {
+  width: 16px;
+  height: 16px;
+  fill: #fff;
+  flex-shrink: 0;
+}
+
 .masthead-search {
   display: flex;
   justify-content: center;
