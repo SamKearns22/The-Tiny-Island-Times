@@ -1,0 +1,13 @@
+{
+  "name": "tiny-island-times",
+  "version": "1.0.0",
+  "description": "A satirical UK news website with a simple publishing form.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "ISC"
+}
