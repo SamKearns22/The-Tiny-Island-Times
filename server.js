@@ -22,7 +22,7 @@ const SUPABASE_BUCKET = process.env.SUPABASE_BUCKET || 'article-images';
 // Umami analytics — only added to public-facing pages (home, articles, 404),
 // deliberately left off /admin pages so your own publishing visits don't
 // skew the numbers. Override via env var if you ever change Umami sites.
-const ANALYTICS_SCRIPT = process.env.ANALYTICS_SCRIPT || '<script defer src="https://cloud.umami.is/script.js" data-website-id="5bd77b7e-756b-4391-9b19-b5f21082aeb4"></script>';
+const ANALYTICS_SCRIPT = process.env.ANALYTICS_SCRIPT || '<script defer src="https://cloud.umami.is/script.js" data-website-id="5d0eaddd-773e-4a4c-86e2-dd057fb5ba89"></script>';
 
 if (!SUPABASE_URL || !SUPABASE_SECRET_KEY) {
   console.warn('WARNING: SUPABASE_URL and/or SUPABASE_SECRET_KEY are not set. The site will not be able to read or save posts until these are configured.');
